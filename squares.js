@@ -38,7 +38,7 @@ function drawSquaresInSquares(squareSize) {
     if (squareSize > 10) {
         drawSquare(squareSize);
         rotate(45);
-        halfSquare = squareSize / 2;
+        let halfSquare = squareSize / 2;
         drawSquaresInSquares(sqrt(halfSquare ** 2 + halfSquare ** 2));
     }
 }
